@@ -1,0 +1,47 @@
+﻿<Window x:Class="windows_calculator.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:windows_calculator"
+        mc:Ignorable="d"
+        Title="Calculator" Height="509" Width="334">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="9*"/>
+            <ColumnDefinition Width="325*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.5*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="0.3*"/>
+            <RowDefinition Height="5*"/>
+        </Grid.RowDefinitions>
+
+
+        <!--Header-->
+        <Grid Grid.Row="0" Grid.ColumnSpan="2">
+            <Grid.ColumnDefinitions >
+                <ColumnDefinition Width="0.2*"/>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="0.2*"/>
+            </Grid.ColumnDefinitions>
+
+            <Image HorizontalAlignment="Left" Margin="5 0 0 0" Grid.Column="0" Source="https://cdn0.iconfinder.com/data/icons/mobile-basic-vol-2/32/Burger_Menu-256.png" Width="25" />
+
+            <Label Content="Standart" Grid.Column="1" VerticalContentAlignment="Top"
+                   HorizontalAlignment="Left"  FontSize="23" FontStyle="Normal"
+                   FontFamily="Arial"/>
+
+            <Image HorizontalAlignment="Left" Margin="0 0 0 0" Grid.Column="2" Source="https://icon-library.com/images/icon-activity/icon-activity-3.jpg" Width="20" Height="15" />
+        </Grid>
+
+        
+
+
+
+
+
+
+    </Grid>
+</Window>
