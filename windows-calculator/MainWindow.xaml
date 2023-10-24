@@ -5,6 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:windows_calculator"
         mc:Ignorable="d"
+        Icon="https://winaero.com/blog/wp-content/uploads/2019/10/Windows-10-Calculator-Fluent-Icon-Big-256.png"
         Title="Calculator" Height="509" Width="334">
     <Grid Background="WhiteSmoke">
 
@@ -99,6 +100,7 @@
                     <Image Source="https://cdn2.iconfinder.com/data/icons/inverticons-stroke-vol-3/32/delete_remove_back_backspace-512.png" Width="20" Height="20"/>
                 </StackPanel>
             </Button>
+            
             
             <Button  Click= "click"   Content="⅟x"  FontSize="18"  Grid.Row="1" Grid.Column="0"  Background="WhiteSmoke" Margin="2 2 2 2"/>
             <Button  Click= "kvadrat_click"  Content="x²"  FontSize="18"  Grid.Row="1" Grid.Column="1"  Background="WhiteSmoke" Margin="2 2 2 2"/>
